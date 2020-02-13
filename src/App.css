@@ -1,38 +1,326 @@
-.App {
-  text-align: center;
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Roboto';
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  left: 0;
+  position: fixed;
+  width: 200px;
+  background: white;
+  height: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.App-header {
-  background-color: #282c34;
+ul {
+  line-height: 29px;
+}
+
+.nav-top {
+  background: #E3E3E4;
+  border-bottom: 1px solid #d0d0d2;
+  margin-top: -25px;
+  padding: 14px;
+}
+
+nav h1 {
+  font-size: 30px;
+  color: #1B4079;
+}
+nav h3 {
+  line-height: 0;
+  color: #464649;
+  margin-top: -4px;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+
+nav ul {
+  margin: 0px;
+  list-style: none;
+  line-height: 3;
+  margin-left: -40px;
+}
+
+nav ul li:hover {
+  background-color: #eeeeef;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #eeeeef;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: #464649;
+  text-decoration: none;
+  padding: 14px;
+  padding-left: 60px;
+  font-weight: 400;
+}
+
+li a:visited {
+  color: #464649;
+}
+
+#AboutLink::before {
+  content: url("./assets/About.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#AboutLink:hover {
+  border-left: 5px solid #3B99D4;
+  width: 123px
+}
+
+#ExperienceLink::before {
+  content: url("./assets/computer.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#ExperienceLink:hover {
+  border-left: 5px solid #CC3546;
+  width: 123px
+}
+
+#ProjectsLink::before {
+  content: url("./assets/code.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#ProjectsLink:hover {
+  border-left: 5px solid #52489C;
+  width: 123px
+}
+
+#EducationLink::before {
+  content: url("./assets/school.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#EducationLink:hover {
+  border-left: 5px solid #087E8B;
+  width: 123px
+}
+
+#ContactLink::before {
+  content: url("./assets/contact.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#ContactLink:hover {
+  border-left: 5px solid #03256C;
+  width: 123px
+}
+
+#ResumeLink::before {
+  content: url("./assets/resume.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#ResumeLink:hover {
+  border-left: 5px solid #ED6A5A;
+  width: 123px
+}
+
+
+main {
+  margin-left: 200px;
+  background-image: url("./assets/vertical-waves.png");
+  overflow-x: hidden;
+}
+
+
+#intro {
+  background: url(./assets/Profile.png);
+  height: 100vh;
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+section {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-bottom: 10px;
+}
+
+section h2 {
+  font-size: 30px;
   color: white;
+  padding: 10px;
+  background-color: #1B4079;
+  width: 100%;
+  margin: 0;
+  padding-left:19px;
+}
+section p {
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+section div {
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio {
+  font-size: 25px;
+  padding: 30px;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+.jobBox {
+  display: flex;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
+  flex-flow: column;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.jobHeader {
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d2;
+  margin-top: -36px;
+}
+
+.jobHeader h4:first-of-type {
+  margin-left: 15px;
+}
+
+.jobHeader h4:last-of-type {
+  margin-right: -21px;
+}
+
+.GoReact:before {
+  content: url("./assets/GoSpot.png");
+  position: relative;
+  top: 16px;
+}
+
+.Zions:before {
+  content: url("./assets/Zions.png");
+  position: relative;
+  top: 16px;
+}
+
+.Helio:before {
+  content: url("./assets/Helio.png");
+  position: relative;
+  top: 16px;
+}
+
+.BYU:before {
+  content: url("./assets/BYU.png");
+  position: relative;
+  top: 16px;
+}
+
+.eduBox {
+  display: flex;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
+  flex-flow: column;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.eduHeader {
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d2;
+  margin-top: -36px;
+}
+
+.eduHeader h4:first-of-type {
+  margin-left: 15px;
+}
+
+.eduHeader h4:last-of-type {
+  margin-right: -21px;
+}
+
+.allProjects {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectBox {
+  display: flex;
+  border: 1px solid #d0d0d2;
+  border-radius: 8px;
+  background-color: white;
+  height: 400px;
+  flex-direction: column;
+  min-width: 300px;
+  margin: 13px;
+  padding: 0px;
+}
+
+.projectBox h4 {
+  align-self: center;
+}
+
+.projectImage {
+  align-self: center;
+max-width:300px;
+width: 100%;
+}
+
+.projectDescription {
+  max-width:300px;
+  padding: 0px;
+  margin-top: -44px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.headerMargin {
+  margin-bottom: 16px;
+}
+
+.pdf-canvas {
+  text-align:center;
+}
+
+canvas {
+  border: 1px solid black;
 }
