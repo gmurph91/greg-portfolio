@@ -4,8 +4,6 @@ import HomePage from './pages/home';
 import { Route } from 'react-router-dom';
 import Resume from './pages/resume';
 export default class App extends Component {
-  state = {
-  };
 
 renderHomePage = () => {
   return (
