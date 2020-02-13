@@ -2,11 +2,14 @@
   "name": "greg-portfolio",
   "version": "0.1.0",
   "private": true,
-  "engines": {"node": "12.16.0"},
+  "engines": {
+    "node": "12.16.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "pdf-viewer-reactjs": "^2.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-file-viewer": "^1.2.1",

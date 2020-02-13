@@ -317,10 +317,6 @@ width: 100%;
   margin-bottom: 16px;
 }
 
-.pdf-canvas {
-  text-align:center;
-}
-
-canvas {
-  border: 1px solid black;
+.PDFview {
+  height: 100vh;
 }
