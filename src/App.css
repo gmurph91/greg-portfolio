@@ -145,8 +145,35 @@ li a:visited {
   margin-left: -35px;
 }
 
+#ResumeLink::after {
+  content: url("./assets/link.png");
+  position: relative;
+  top: 3px;
+    margin-left: 10px;
+}
+
 #ResumeLink:hover {
   border-left: 5px solid #ED6A5A;
+  width: 123px
+}
+
+#BlogLink::before {
+  content: url("./assets/blog.png");
+  position: relative;
+  top: 6px;
+  margin-right: 11px;
+  margin-left: -35px;
+}
+
+#BlogLink::after {
+  content: url("./assets/link.png");
+  position: relative;
+  top: 3px;
+    margin-left: 10px;
+}
+
+#BlogLink:hover {
+  border-left: 5px solid #CC5E6D;
   width: 123px
 }
 
@@ -182,7 +209,8 @@ section h2 {
   padding-left:19px;
 }
 section p {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 section div {
@@ -215,6 +243,12 @@ section div {
   margin-top: -36px;
 }
 
+.jobHeader2 {
+  display: block;
+  border-bottom: 1px solid #d0d0d2;
+  margin-top: -36px;
+}
+
 .jobHeader h4:first-of-type {
   margin-left: 15px;
 }
@@ -225,12 +259,6 @@ section div {
 
 .GoReact:before {
   content: url("./assets/GoSpot.png");
-  position: relative;
-  top: 16px;
-}
-
-.Zions:before {
-  content: url("./assets/Zions.png");
   position: relative;
   top: 16px;
 }
@@ -265,6 +293,12 @@ section div {
   margin-top: -36px;
 }
 
+.eduHeader2 {
+  display: block;
+  border-bottom: 1px solid #d0d0d2;
+  margin-top: -36px;
+}
+
 .eduHeader h4:first-of-type {
   margin-left: 15px;
 }
@@ -294,18 +328,22 @@ section div {
 
 .projectBox h4 {
   align-self: center;
+  line-height: 0;
+  margin: 0;
 }
 
 .projectImage {
   align-self: center;
 max-width:300px;
 width: 100%;
+border-radius: 8px;
+border-bottom: 1px solid #d0d0d2;
 }
 
 .projectDescription {
-  max-width:300px;
-  padding: 0px;
-  margin-top: -44px;
+  max-width: 300px;
+    padding: 0px;
+    margin-top: -22px;
 }
 
 .contacts {
@@ -319,4 +357,55 @@ width: 100%;
 
 .PDFview {
   height: 100vh;
+}
+
+.projectLink {
+  display: block;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    cursor: pointer !important;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main2 {
+  margin-left: 0px;
+}
+
+
+.blog {
+  width: 100vw;
+  height: 100vh;
+    background-image: url("./assets/codebackground.png");
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.blogPost {
+  display: flex;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
+  flex-flow: column;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.blogHeader {
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d2;
+  margin-left:20px;
+}
+
+.blogParagraph {
+  padding: 20px;
 }
