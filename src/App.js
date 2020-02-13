@@ -10,12 +10,6 @@ renderHomePage = () => {
   )
 }
 
-renderResume = () => {
-  return (
-    <Resume />
-  )
-}
-
   render() {
     return (
       <div className="App">
