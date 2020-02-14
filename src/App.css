@@ -382,8 +382,8 @@ border-bottom: 1px solid #d0d0d2;
 
 
 .blog {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
     background-image: url("./assets/codebackground.png");
     overflow-x: hidden;
     padding-bottom: 30px;
@@ -404,8 +404,35 @@ border-bottom: 1px solid #d0d0d2;
   justify-content: space-between;
   border-bottom: 1px solid #d0d0d2;
   margin-left:20px;
+  margin-right:20px;
 }
 
 .blogParagraph {
   padding: 20px;
+}
+
+.return {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.returnHome {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
+}
+
+.returnHome:hover {
+  background-color: lightgray;
+}
+
+.returnHome::before {
+  content: url("./assets/return.png");
+  position: relative;
+  top: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
