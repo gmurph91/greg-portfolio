@@ -436,3 +436,9 @@ border-bottom: 1px solid #d0d0d2;
   margin-left: 3px;
   margin-right: 3px;
 }
+
+#loadingIcon {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+}
