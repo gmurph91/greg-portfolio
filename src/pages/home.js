@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+require('bootstrap')
 export default class homePage extends Component {
 
   constructor(props) {
@@ -76,8 +76,8 @@ return(
     <div>
   <nav id="nav">
     <div className="nav-top" id="nav">
-      <h1>Gregory Murphy</h1>
-      <h3>Full Stack Developer</h3>
+      <h2>Gregory Murphy</h2>
+      <h6>Full Stack Developer</h6>
     </div>
     <ul>
       <li><a id="AboutLink" href="#About">About</a></li>
@@ -92,20 +92,20 @@ return(
   <main id="main">
     <section id="intro"></section>
     <section id="About">
-      <h2>About Me</h2>
+      <h3>About Me</h3>
       <p className="bio">Born and raised in Idaho Falls, I moved to Utah in 2009. I graduated from BYU in 2014 with a degree
         in Business Management. After a few years in the real world, I decided to pivot toward a career in computer
         science. I enjoy spending time with my wife and daughter, watching sports, and getting outside in the great
         outdoors.</p>
     </section>
     <section id="Experience">
-      <h2>Work Experience</h2>
+      <h3>Work Experience</h3>
 
       <div className="jobBox GoReact">
         <div className="jobHeader" id="job1">
-          <h4>GoReact</h4>
-          <h4>Senior Support Engineer</h4>
-          <h4>Dec. 2018 - Present</h4>
+          <h6>GoReact</h6>
+          <h6>Senior Support Engineer</h6>
+          <h6>Dec. 2018 - Present</h6>
         </div>
 
         <ul>
@@ -118,9 +118,9 @@ return(
 
       <div className="jobBox GoReact">
         <div className="jobHeader" id="job2">
-          <h4>GoReact</h4>
-          <h4>Technical Support Representative</h4>
-          <h4>Aug. 2017 - Dec. 2018</h4>
+          <h6>GoReact</h6>
+          <h6>Technical Support Representative</h6>
+          <h6>Aug. 2017 - Dec. 2018</h6>
         </div>
         <ul>
           <li>Identified and reproduced bugs for the development team and documented the reproduction steps in Jira</li>
@@ -130,25 +130,25 @@ return(
       </div>
     </section>
     <section id="Projects">
-      <h2 className="headerMargin">Projects</h2>
+      <h3 className="headerMargin">Projects</h3>
       <div className="allProjects">
       <div className="projectBox">
         <img className="projectImage" src="statpage.png" alt="statpage.png" />
-        <h4><a className="projectLink" href="http://statpage.herokuapp.com/">Stat Page</a></h4>
+        <h6><a className="projectLink" href="http://statpage.herokuapp.com/">Stat Page</a></h6>
         <div className="projectDescription"> 
         <p>A React app used to quickly generate graphics for Instagram pages with over 450,000 followers (graphics were previously made with Photoshop)</p>
         </div>
       </div>
       <div className="projectBox">
         <img className="projectImage" src="calendar.png" alt="calendar.png" />
-        <h4><a className="projectLink" href="http://gregcalendar.herokuapp.com/">Calendar</a></h4>
+        <h6><a className="projectLink" href="http://gregcalendar.herokuapp.com/">Calendar</a></h6>
         <div className="projectDescription"> 
           <p>A simple calendar app with CRUD capabilities.</p>
           </div>
       </div>
       <div className="projectBox">
         <img className="projectImage" src="todo.png" alt="todo.png"/>
-        <h4><a className="projectLink" href="http://gregtodolist.herokuapp.com/">To Do List</a></h4>
+        <h6><a className="projectLink" href="http://gregtodolist.herokuapp.com/">To Do List</a></h6>
         <div className="projectDescription"> 
           <p>A simple to do list app with create, read, and update capabilities.</p>
           </div>
@@ -156,12 +156,12 @@ return(
       </div>
     </section>
     <section id="Education">
-      <h2>Education</h2>
+      <h3>Education</h3>
       <div className="eduBox Helio">
         <div className="eduHeader" id="school1">
-          <h4>Helio Training</h4>
-          <h4>Full Stack Web Development Certificate</h4>
-          <h4>Aug. 2019 - Present</h4>
+          <h6>Helio Training</h6>
+          <h6>Full Stack Web Development Certificate</h6>
+          <h6>Aug. 2019 - Present</h6>
         </div>
         <ul>
           <li>Learned the skills necessary to design and build a fully functional web application. Including HTML, CSS,
@@ -171,9 +171,9 @@ return(
       </div>
       <div className="eduBox BYU">
         <div className="eduHeader" id="school2">
-          <h4>Brigham Young University</h4>
-          <h4>Bachelor of Business Management</h4>
-          <h4>Aug. 2009 - Dec. 2014</h4>
+          <h6>Brigham Young University</h6>
+          <h6>Bachelor of Business Management</h6>
+          <h6>Aug. 2009 - Dec. 2014</h6>
         </div>
         <ul>
           <li>3.64 GPA</li>
@@ -181,7 +181,7 @@ return(
       </div>
     </section>
     <section id="Contact">
-      <h2>Contact Me</h2>
+      <h3>Contact Me</h3>
       <div className="contacts">
       <img src="email.png" alt="email.png"/>
       <p>

@@ -19,33 +19,21 @@ nav {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-ul {
-  line-height: 29px;
-}
-
 .nav-top {
   background: #E3E3E4;
   border-bottom: 1px solid #d0d0d2;
-  margin-top: -25px;
   padding: 14px;
 }
 
-nav h1 {
-  font-size: 30px;
+nav h2 {
   color: #1B4079;
+ font-weight: 600;
 }
-nav h3 {
-  line-height: 0;
+nav h6 {
   color: #464649;
-  margin-top: -4px;
-  margin-bottom: 12px;
-  font-weight: 300;
 }
 
 nav ul {
-  margin: 0px;
-  list-style: none;
-  line-height: 3;
   margin-left: -40px;
 }
 
@@ -60,87 +48,95 @@ nav ul li:hover {
 }
 
 li a {
-  display: block;
+  display: flex;
+  align-items: center;
   color: #464649;
   text-decoration: none;
-  padding: 14px;
+  padding: 17px;
   padding-left: 60px;
-  font-weight: 400;
 }
 
 li a:visited {
+  text-decoration: none;
   color: #464649;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #464649;
+  font-weight: normal;
+}
+
+a.active:hover {
+  text-decoration: none;
+  color: #464649;
+  font-weight: bold;
 }
 
 #AboutLink::before {
   content: url("./assets/About.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
 
 #AboutLink:hover {
   border-left: 5px solid #3B99D4;
-  width: 123px
 }
 
 #ExperienceLink::before {
   content: url("./assets/computer.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
 
 #ExperienceLink:hover {
   border-left: 5px solid #CC3546;
-  width: 123px
 }
 
 #ProjectsLink::before {
   content: url("./assets/code.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
 
 #ProjectsLink:hover {
   border-left: 5px solid #52489C;
-  width: 123px
 }
 
 #EducationLink::before {
   content: url("./assets/school.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
 
 #EducationLink:hover {
   border-left: 5px solid #087E8B;
-  width: 123px
 }
 
 #ContactLink::before {
   content: url("./assets/contact.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
 
 #ContactLink:hover {
   border-left: 5px solid #03256C;
-  width: 123px
 }
 
 #ResumeLink::before {
   content: url("./assets/resume.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
@@ -154,13 +150,12 @@ li a:visited {
 
 #ResumeLink:hover {
   border-left: 5px solid #ED6A5A;
-  width: 123px
 }
 
 #BlogLink::before {
   content: url("./assets/blog.png");
   position: relative;
-  top: 6px;
+  top: 2px;
   margin-right: 11px;
   margin-left: -35px;
 }
@@ -174,7 +169,6 @@ li a:visited {
 
 #BlogLink:hover {
   border-left: 5px solid #CC5E6D;
-  width: 123px
 }
 
 
@@ -199,7 +193,7 @@ section {
   padding-bottom: 10px;
 }
 
-section h2 {
+section h3 {
   font-size: 30px;
   color: white;
   padding: 10px;
@@ -236,31 +230,41 @@ section div {
   margin-top: 30px;
 }
 
+.jobBox ul {
+  margin-top: 13px;
+}
+
+.eduBox ul {
+  margin-top: 13px;
+}
+
 .jobHeader {
   display: inline-flex;
   justify-content: space-between;
-  border-bottom: 1px solid #d0d0d2;
-  margin-top: -36px;
+  padding-bottom: 7px;
+    border-bottom: 1px solid #d0d0d2;
+    margin-top: -23px;
 }
 
 .jobHeader2 {
   display: block;
-  border-bottom: 1px solid #d0d0d2;
-  margin-top: -36px;
+  padding-bottom: 7px;
+    border-bottom: 1px solid #d0d0d2;
+    margin-top: -23px;
 }
 
-.jobHeader h4:first-of-type {
+.jobHeader h6:first-of-type {
   margin-left: 15px;
 }
 
-.jobHeader h4:last-of-type {
+.jobHeader h6:last-of-type {
   margin-right: -21px;
 }
 
 .GoReact:before {
   content: url("./assets/GoSpot.png");
   position: relative;
-  top: 16px;
+  top: 8px;
 }
 
 .Helio:before {
@@ -289,21 +293,23 @@ section div {
 .eduHeader {
   display: inline-flex;
   justify-content: space-between;
-  border-bottom: 1px solid #d0d0d2;
-  margin-top: -36px;
+  padding-bottom: 7px;
+    border-bottom: 1px solid #d0d0d2;
+    margin-top: -23px;
 }
 
 .eduHeader2 {
   display: block;
-  border-bottom: 1px solid #d0d0d2;
-  margin-top: -36px;
+  padding-bottom: 7px;
+    border-bottom: 1px solid #d0d0d2;
+    margin-top: -23px;
 }
 
-.eduHeader h4:first-of-type {
+.eduHeader h6:first-of-type {
   margin-left: 15px;
 }
 
-.eduHeader h4:last-of-type {
+.eduHeader h6:last-of-type {
   margin-right: -21px;
 }
 
@@ -326,7 +332,7 @@ section div {
   padding: 0px;
 }
 
-.projectBox h4 {
+.projectBox h6 {
   align-self: center;
   line-height: 0;
   margin: 0;
@@ -441,4 +447,13 @@ border-bottom: 1px solid #d0d0d2;
   position: absolute;
    top: 50%;
    left: 50%;
+}
+
+.contacts p {
+  display: flex;
+  margin-top: 15px;
+}
+
+.blogHeader h4 {
+  margin-top: 10px;
 }

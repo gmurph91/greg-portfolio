@@ -4,6 +4,7 @@ import HomePage from './pages/home';
 import Resume from './pages/resume';
 import Blog from './pages/blog';
 import { Route } from 'react-router-dom';
+require('bootstrap')
 export default class App extends Component {
 
 renderHomePage = () => {
