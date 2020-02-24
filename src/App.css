@@ -327,7 +327,7 @@ section div {
   background-color: white;
   height: 400px;
   flex-direction: column;
-  min-width: 300px;
+  width: 300px;
   margin: 13px;
   padding: 0px;
 }
@@ -336,6 +336,7 @@ section div {
   align-self: center;
   line-height: 0;
   margin: 0;
+  height: 40px;
 }
 
 .projectImage {
@@ -349,7 +350,6 @@ border-bottom: 1px solid #d0d0d2;
 .projectDescription {
   max-width: 300px;
     padding: 0px;
-    margin-top: -22px;
 }
 
 .contacts {
@@ -369,13 +369,11 @@ border-bottom: 1px solid #d0d0d2;
   display: block;
     color: black;
     margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 2px;
     cursor: pointer !important;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 298px;
+    text-align: center;
 }
 
 .hidden {

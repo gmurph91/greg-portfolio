@@ -140,6 +140,13 @@ return(
         </div>
       </div>
       <div className="projectBox">
+        <img className="projectImage" src="moviedb.png" alt="moviedb.png" />
+        <h6><a className="projectLink" href="http://gregmovies.herokuapp.com/">Movie Database</a></h6>
+        <div className="projectDescription"> 
+        <p>A React app used to track and view information on movies and TV shows</p>
+        </div>
+      </div>
+      <div className="projectBox">
         <img className="projectImage" src="calendar.png" alt="calendar.png" />
         <h6><a className="projectLink" href="http://gregcalendar.herokuapp.com/">Calendar</a></h6>
         <div className="projectDescription"> 
