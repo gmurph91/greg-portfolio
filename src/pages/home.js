@@ -143,7 +143,7 @@ return(
         <img className="projectImage" src="moviedb.png" alt="moviedb.png" />
         <h6><a className="projectLink" href="http://gregmovies.herokuapp.com/">Movie Database</a></h6>
         <div className="projectDescription"> 
-        <p>A React app used to track and view information on movies and TV shows</p>
+        <p>A React app used to track and view information on movies and TV shows.</p>
         </div>
       </div>
       <div className="projectBox">
@@ -154,10 +154,10 @@ return(
           </div>
       </div>
       <div className="projectBox">
-        <img className="projectImage" src="todo.png" alt="todo.png"/>
-        <h6><a className="projectLink" href="http://gregtodolist.herokuapp.com/">To Do List</a></h6>
+        <img className="projectImage" src="codenames.png" alt="codenames.png"/>
+        <h6><a className="projectLink" href="http://greg-codenames.herokuapp.com/">Codenames</a></h6>
         <div className="projectDescription"> 
-          <p>A simple to do list app with create, read, and update capabilities.</p>
+          <p>A React app based on the popular board game Codenames. Includes a live chat feature so players can join remotely.</p>
           </div>
       </div>
       </div>
