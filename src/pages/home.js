@@ -157,7 +157,7 @@ return(
         <img className="projectImage" src="codenames.png" alt="codenames.png"/>
         <h6><a className="projectLink" href="http://greg-codenames.herokuapp.com/">Codenames</a></h6>
         <div className="projectDescription"> 
-          <p>A React app based on the popular board game Codenames. Includes a live chat feature so players can join remotely.</p>
+          <p>A React app based on the popular board game Codenames. Includes a live chat feature so players can join and play remotely.</p>
           </div>
       </div>
       </div>
