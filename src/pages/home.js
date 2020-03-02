@@ -203,6 +203,10 @@ return(
     <img src="github.png" alt="github.png"/>
       <p><a href="https://github.com/gmurph91" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </div>
+    <div className="contacts">
+    <img src="exercism.png" alt="exercism.png"/>
+      <p><a href="https://exercism.io/profiles/gmurph91" target="_blank" rel="noopener noreferrer">Exercism</a></p>
+    </div>
     </section>
 
   </main>
